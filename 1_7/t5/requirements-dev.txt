@@ -1,0 +1,6 @@
+# 开发依赖：安装本文件会一并装上运行时依赖
+-r requirements.txt
+
+pytest>=8.0     # 测试框架
+httpx2>=2.0      # starlette TestClient 的底层依赖（仅测试需要）
+ruff>=0.6        # lint

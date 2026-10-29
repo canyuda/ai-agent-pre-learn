@@ -1,0 +1,5 @@
+# 运行时直接依赖（app 实际用到的包）
+fastapi>=0.115          # Web 框架，提供 /health 路由
+uvicorn>=0.30           # ASGI 服务器，启动 app.main:app
+pydantic-settings>=2.0  # 从环境变量 / .env 读取应用配置
+python-dotenv>=1.0      # pydantic-settings 的 env_file 功能基于它，显式声明
