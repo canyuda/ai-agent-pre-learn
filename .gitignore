@@ -23,3 +23,6 @@ build/
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# video-agent-kit 工具运行缓存
+.video_agent/

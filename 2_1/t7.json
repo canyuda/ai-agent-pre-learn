@@ -1,0 +1,48 @@
+{
+  "type": "function",
+  "function": {
+    "name": "send_email",
+    "description": "发送一封电子邮件",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "to": {
+          "type": "string",
+          "format": "email",
+          "description": "收件人邮箱地址"
+        },
+        "subject": {
+          "type": "string",
+          "description": "邮件主题"
+        },
+        "body": {
+          "type": "string",
+          "description": "邮件正文"
+        },
+        "cc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "抄送人邮箱列表"
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "low",
+            "normal",
+            "high"
+          ],
+          "default": "normal",
+          "description": "邮件优先级"
+        }
+      },
+      "required": [
+        "to",
+        "subject",
+        "body"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
