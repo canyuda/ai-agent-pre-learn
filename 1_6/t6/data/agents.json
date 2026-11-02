@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CodeReviewer",
+    "description": "审查代码并给出改进建议",
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "tools": [],
+    "system_prompt": "",
+    "id": 1,
+    "created_at": "2026-10-29T17:28:44.378451",
+    "updated_at": "2026-10-29T17:28:44.378451",
+    "status": "active"
+  },
+  {
+    "name": "DocWriter",
+    "description": "根据大纲生成技术文档",
+    "model": "deepseek-chat",
+    "temperature": 0.7,
+    "tools": [],
+    "system_prompt": "",
+    "id": 2,
+    "created_at": "2026-10-29T17:28:44.379075",
+    "updated_at": "2026-10-29T17:28:44.379075",
+    "status": "active"
+  },
+  {
+    "name": "DataAnalyst",
+    "description": "分析表格数据并输出结论",
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "tools": [],
+    "system_prompt": "",
+    "id": 3,
+    "created_at": "2026-10-29T17:28:44.379512",
+    "updated_at": "2026-10-29T17:28:44.379512",
+    "status": "active"
+  }
+]
